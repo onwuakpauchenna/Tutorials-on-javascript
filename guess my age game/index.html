@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="image/png" href="guessmynumber.png" />
+    <title>Guess My Age!</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="heading">Guess my Age!🤔</h1>
+        <button class="btn replay">Replay🌀</button>
+        <p class="between">range 16-30😁</p>
+      </header>
+      <main>
+        <section class="left">
+          <div class="gif_box gif_box-0">
+            <video class="gif" autoplay loop muted>
+              <source src="mewalking.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="gif_box gif_box-1">
+            <video class="gif" autoplay loop muted>
+              <source src="celebration.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <input type="number" class="answer" placeholder="18?" />
+          <button class="btn guess">Guess😇</button>
+        </section>
+        <section class="right">
+          <p class="message">🤗start guessing...</p>
+          <div class="number">?</div>
+          <div class="details">
+            <p class="score_label">✨score:<span class="score"> 20</span></p>
+            <p class="highscore_label">
+              🥇highscore:<span class="highscore">0</span>
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer_copyright">
+        Thanks for playing my game copyright @ onwuakpauchenna@gmail.com All
+        rights reserved. My first javascript 😏game, hope you like it😃
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
